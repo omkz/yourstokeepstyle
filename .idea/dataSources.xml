@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1688876115">
+    <data-source source="LOCAL" name="Rails yourstokeepstyle: development" uuid="7a494c89-d54e-4c2a-9e1a-59ffcf1ee958">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:yourstokeepstyle_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails yourstokeepstyle: test" uuid="0c3e28a2-733f-4965-87dc-adbe479b86e3">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:yourstokeepstyle_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails yourstokeepstyle: production" uuid="10967d29-05a5-436e-964c-36930cdfaf57">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:yourstokeepstyle_production</jdbc-url>
+      <user-name>yourstokeepstyle</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddff3dfe5dfffdff8dff9dffedfe5dfe1dfefdfefdffadff9dffedff3dfe6dfefdff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
