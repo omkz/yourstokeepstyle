@@ -38,3 +38,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'unicorn'
+
+gem 'rails_12factor', group: :production
+
+ruby "2.1.1"
