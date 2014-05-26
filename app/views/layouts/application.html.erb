@@ -2,13 +2,103 @@
 <html>
 <head>
   <title>Yourstokeepstyle</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <%= javascript_include_tag 'http://html5shiv.googlecode.com/svn/trunk/html5.js' %>
 
-<%= yield %>
+  <!--<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">-->
+
+
+  <!-- Optional theme -->
+  <!--<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">-->
+
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+
+  <!-- Latest compiled and minified JavaScript -->
+  <!--<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>-->
+
+  <!--<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>-->
+  <%= csrf_meta_tags %>
+
+</head>
+<body class="page-about">
+
+<div id="container">
+  <div id="overlay"></div>
+
+
+  <header id="header">
+    <a href="#" id="logo">
+      <%= image_tag "black-logo.png", alt: "home" %>
+
+      <div class="image-title"></div>
+    </a>
+
+    <div class="region region-header">
+      <section id="block-system-main-menu">
+
+        <h2 class="block-title">Main menu</h2>
+
+        <div style="width: 650px;" class="content">
+          <ul style="width: 650px;" class="menu">
+
+            <li class="first leaf"><%= link_to "Home", static_pages_home_path %></li>
+            <li class="leaf"><%= link_to "Collection", static_pages_collection_path %></li>
+            <li class="leaf"><%= link_to "Conscience", static_pages_conscience_path %></li>
+            <li class="leaf"><%= link_to "Stockists", static_pages_stockists_path %></li>
+            <li class="leaf"><%= link_to "Blog", static_pages_stockists_path %></li>
+            <li class="leaf"><%= link_to "Contact", static_pages_contact_path %></li>
+
+          </ul>
+        </div>
+
+      </section>
+      <!-- /.block -->
+    </div>
+    <!-- /.region -->
+
+
+  </header>
+  <!-- /#header -->
+  <div style="clear: both;"></div>
+  <section id="main" role="main" class="clearfix">
+
+    <a id="main-content"></a>
+
+    <div class="view-content">
+      <div class="views-row">
+        <article id="node-1">
+
+
+          <%= yield %>
+
+
+
+
+
+
+        </article>
+        <!-- /.node -->
+      </div>
+    </div>
+
+
+  </section>
+  <!-- /#main -->
+  <div id="footer">
+    <hr style="background-color:#dbdbdb;height:1px;border:none;"/>
+    <p>&nbsp;</p>
+
+    <%= link_to image_tag("facebook.png",  width: "32", height: "32" ),  "http://facebook.com/yourstokeepstyle", target: '_blank'%>
+    <%= link_to image_tag("instagram.png",  width: "32", height: "32" ),  "http://instagram.com/yourstokeepstyle", target: '_blank' %>
+
+  </div>
+
+</div>
+
 
 </body>
 </html>
+
+
+

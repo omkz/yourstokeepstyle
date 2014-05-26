@@ -10,6 +10,144 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
+ *= require_fonts
  *= require_tree .
  *= require_self
  */
+
+
+
+.element-invisible { position: absolute ! important; clip: rect(1px, 1px, 1px, 1px); overflow: hidden; height: 1px; }
+.element-invisible.element-focusable:active, .element-invisible.element-focusable:focus { position: static ! important; clip: auto; overflow: visible; height: auto; }
+.clearfix:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+:first-child + html .clearfix { min-height: 1%; }
+
+
+ul.menu { border: medium none; list-style: none outside none; text-align: left; }
+ul.menu li { margin: 0px 0px 0px 0.5em; }
+ul li.leaf { list-style-image: url('menu-leaf.png'); list-style-type: square; }
+li.expanded, li.collapsed, li.leaf { padding: 0.2em 0.5em 0px 0px; margin: 0px; }
+li a.active { color: rgb(0, 0, 0); }
+
+
+img { border: 0px none; }
+
+
+#lightbox { position: absolute; top: 40px; left: 0px; width: 100%; z-index: 100; text-align: center; line-height: 0; }
+#outerImageContainer { position: relative; background-color: rgb(255, 255, 255); width: 250px; height: 250px; margin: 0px auto; min-width: 240px; overflow: hidden; }
+#imageContainer, #frameContainer, #modalContainer { padding: 10px; }
+#modalContainer { line-height: 1em; overflow: auto; }
+#loading { height: 25%; width: 100%; text-align: center; line-height: 0; position: absolute; top: 40%; left: 45%; }
+#hoverNav { position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; z-index: 10; }
+#imageContainer > #hoverNav { left: 0px; }
+#frameHoverNav { z-index: 10; margin-left: auto; margin-right: auto; width: 20%; position: absolute; bottom: 0px; height: 45px; }
+#hoverNav a, #frameHoverNav a { outline: medium none; }
+#prevLink, #nextLink { width: 49%; height: 100%; background: url('blank.gif') no-repeat scroll 0% 0% transparent; display: block; }
+#prevLink, #framePrevLink { left: 0px; float: left; }
+#nextLink, #frameNextLink { right: 0px; float: right; }
+#prevLink:hover, #prevLink:visited:hover, #prevLink.force_show_nav, #framePrevLink { background: url('prev.gif') no-repeat scroll left 15% transparent; }
+#nextLink:hover, #nextLink:visited:hover, #nextLink.force_show_nav, #frameNextLink { background: url('next.gif') no-repeat scroll right 15% transparent; }
+#prevLink.force_show_nav:hover, #prevLink.force_show_nav:visited:hover, #framePrevLink:hover, #framePrevLink:visited:hover { background: url('prev_hover.gif') no-repeat scroll left 15% transparent; }
+#nextLink.force_show_nav:hover, #nextLink.force_show_nav:visited:hover, #frameNextLink:hover, #frameNextLink:visited:hover { background: url('next_hover.gif') no-repeat scroll right 15% transparent; }
+#framePrevLink, #frameNextLink { width: 45px; height: 45px; display: block; position: absolute; bottom: 0px; }
+#imageDataContainer { font: 10px/1.4em Verdana,Helvetica,sans-serif; background-color: rgb(255, 255, 255); margin: 0px auto; min-width: 240px; }
+#imageData { padding: 0px 10px; }
+#imageData #imageDetails { width: 70%; float: left; text-align: left; }
+#imageData #caption { font-weight: bold; }
+#imageData #numberDisplay { display: block; clear: left; padding-bottom: 1em; }
+#imageData #bottomNav { height: 66px; }
+#lightbox2-overlay { position: absolute; top: 0px; left: 0px; z-index: 90; width: 100%; height: 500px; background-color: rgb(0, 0, 0); }
+.clearfix:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+#bottomNavClose { display: block; background: url('close.gif') no-repeat scroll left center transparent; margin-top: 33px; float: right; padding-top: 0.7em; height: 26px; width: 26px; }
+#bottomNavClose:hover { background-position: right center; }
+#loadingLink { display: block; background: url('loading.gif') no-repeat scroll 0% 0% transparent; width: 32px; height: 32px; }
+#bottomNavZoom { display: none; background: url('expand.gif') no-repeat scroll 0% 0% transparent; width: 34px; height: 34px; position: relative; left: 30px; float: right; }
+#bottomNavZoomOut { display: none; background: url('contract.gif') no-repeat scroll 0% 0% transparent; width: 34px; height: 34px; position: relative; left: 30px; float: right; }
+#lightshowPlay { margin-top: 42px; float: right; margin-right: 5px; margin-bottom: 1px; height: 20px; width: 20px; background: url('play.png') no-repeat scroll 0% 0% transparent; }
+#lightshowPause { margin-top: 42px; float: right; margin-right: 5px; margin-bottom: 1px; height: 20px; width: 20px; background: url('pause.png') no-repeat scroll 0% 0% transparent; }
+#lightboxImage {  }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; font-size: 100%; vertical-align: baseline; background: none repeat scroll 0% 0% transparent; }
+body { line-height: 1; }
+ol, ul { list-style: none outside none; }
+:focus { outline: 0px none; }
+a img { border: medium none; }
+
+
+body { background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+body, input, textarea { color: rgb(17, 17, 17); font: 300 18px/1.5 brownregular,sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; clear: both; }
+p { margin-bottom: 0.5em; }
+ul { margin: 0px 0px 1.5em 2.5em; }
+ul { list-style: none outside none; }
+
+@font-face
+{
+    font-family: jaggapoint;
+    font-style: normal;
+    font-weigh: normal;
+    src: url('JaggaPoint.ttf');
+
+}
+
+
+@font-face {
+    font-family: "brownbold";
+    font-style: normal;
+    font-weight: normal;
+    src: url('brown-bold-webfont.eot') format("embedded-opentype"), url('brown-bold-webfont.woff') format("woff"), url('brown-bold-webfont.ttf') format("truetype"), url('brown-bold-webfont.svg') format("svg");
+}
+@font-face {
+    font-family: "brownlight";
+    font-style: normal;
+    font-weight: normal;
+    src: url('brown-light-webfont.eot') format("embedded-opentype"), url('brown-light-webfont.woff') format("woff"), url('brown-light-webfont.ttf') format("truetype"), url('brown-light-webfont.svg') format("svg");
+}
+@font-face {
+    font-family: "brownregular";
+    font-style: normal;
+    font-weight: normal;
+    src: url('brown-regular-webfont.eot') format("embedded-opentype"), url('brown-regular-webfont.woff') format("woff"), url('brown-regular-webfont.ttf') format("truetype"), url('brown-regular-webfont.svg') format("svg");
+}
+@font-face {
+    font-family: "brownthin";
+    font-style: normal;
+    font-weight: normal;
+    src: url('brown-thin-webfont.eot') format("embedded-opentype"), url('brown-thin-webfont.woff') format("woff"), url('brown-thin-webfont.ttf') format("truetype"), url('brown-thin-webfont.svg') format("svg");
+}
+
+
+html, body { background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(34, 34, 34); font-family: brownlight,sans-serif; font-size: 13px; line-height: 1.3; margin: 0px; padding: 0px; height: 100%; letter-spacing: 0.06em; }
+.image-title { width: 100%; text-align: center; margin: 3px 0px 5px; font-family: times,serif; font-style: italic; }
+#overlay { position: absolute; background-color: rgb(255, 255, 255); z-index: 999; }
+#container { width: 650px; margin: 0px auto; padding: 40px 0px; }
+h1, h2, h3 { font-family: Georgia; line-height: 1; text-align: center; }
+h2 { margin-bottom: 18px; }
+h2 a { font-size: 18px; color: rgb(0, 0, 0); margin-bottom: 18px; text-decoration: none; }
+p { letter-spacing: 0.06em; margin: 0px; padding: 0px; }
+a { color: rgb(0, 0, 0); }
+#header { position: relative; width: 620px; text-align: center; background-color: rgb(255, 255, 255); padding: 0px 0px 10px; }
+#header .block-title { display: none; }
+#block-system-main-menu, #block-system-main-menu .content { position: relative; width: 620px; text-align: center; }
+#block-system-main-menu .content { margin: 0px auto; text-align: center; }
+ul.menu { margin: 15px 0px 0px 8px; list-style: none outside none; float: left; }
+ul.menu li { list-style: none outside none; float: left; margin: 0px 20px; }
+ul.menu li a { font-size: 12px; font-family: brownlight; text-transform: uppercase; text-decoration: none; color: rgb(0, 0, 0); }
+ul.menu li.active-trail a { font-family: brownregular; }
+#main { margin: 35px 0px 0px; }
+#imageData { display: none; }
+.page-about p, .page-about img { text-align: center; }
+.page-stocklist h2, .page-about h2 { text-transform: uppercase; letter-spacing: 0.15em; font-weight: bold; font-size: 18px; }
+
+
+
+#footer {
+    /*float: left;*/
+    border-style: solid;
+    border-color: #dbdbdb;
+    border-width: 0;
+    margin: 50px 0 0 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
