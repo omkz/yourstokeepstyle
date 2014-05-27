@@ -33,10 +33,12 @@ gem 'sass-rails', '>= 3.2'
 gem 'bootstrap-sass', '~> 3.1.1'
 gem 'bootstrap-wysihtml5-rails'
 
+# Use SCSS for stylesheets
+# gem 'sass-rails', '~> 4.0.3'
+
+
 group :assets do
 
-  # Use SCSS for stylesheets
-  # gem 'sass-rails', '~> 4.0.3'
 
 
 # Use Uglifier as compressor for JavaScript assets
