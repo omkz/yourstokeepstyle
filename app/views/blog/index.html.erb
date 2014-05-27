@@ -1,2 +1,15 @@
-<h1>Blog#index</h1>
-<p>Find me in app/views/blog/index.html.erb</p>
+<h1>Blog</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Body</th>
+  </tr>
+
+  <% @blog.each do |blog| %>
+      <tr>
+        <td><%= blog.title %></td>
+        <td><%= blog.body %></td>
+      </tr>
+  <% end %>
+</table>

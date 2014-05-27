@@ -29,14 +29,15 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+gem 'sass-rails', '>= 3.2'
 gem 'bootstrap-sass', '~> 3.1.1'
+gem 'bootstrap-wysihtml5-rails'
 
 group :assets do
 
   # Use SCSS for stylesheets
   # gem 'sass-rails', '~> 4.0.3'
-  # gem 'sass-rails', '>= 3.2'
+
 
 # Use Uglifier as compressor for JavaScript assets
   gem 'uglifier', '>= 1.3.0'
