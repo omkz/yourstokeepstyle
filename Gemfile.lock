@@ -166,7 +166,6 @@ DEPENDENCIES
   rails (= 4.1.1)
   rails_12factor
   rails_admin
-  sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spring
   turbolinks
