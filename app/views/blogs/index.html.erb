@@ -1,17 +1,18 @@
 <% @blogs.each do |article| %>
 
-    <%= article.title %> <br/>
+    <div class="title" style='font-family: Georgia;'>
+      <%= article.title.html_safe %> <br/>
+    </div>
 
-    <%= article.body %> <br/>
 
+    <%= article.body.html_safe %> <br/>
+
+
+
+    <%# link_to "comments", article %>
+
+    <%= link_to "comments", blog_path(article, :anchor => "disqus_thread", "data-disqus-identifier" => article.id) %> <br />
     <%= social_share_button_tag(article.title) %> <br />
-
-    <%= link_to "comments", article %> <br />
-
-
-
-
-    <%= link_to article.title, blog_path(article, :anchor => "disqus_thread", "data-disqus-identifier" => article.id) %>
 
 <% end %>
 

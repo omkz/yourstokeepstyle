@@ -16,3 +16,11 @@
 //= require bootstrap
 //= require social-share-button
 //= require_tree .
+
+$(function(){
+    $('.carousel').carousel({
+        interval: false
+    })
+
+//    $('.carousel').carousel('pause');
+})

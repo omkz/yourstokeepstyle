@@ -2,14 +2,14 @@
 
   <p>
     <strong>
-      <%= @blog.title %>
+      <%= @blog.title.html_safe %>
     </strong>
 
   </p>
 
   <p>
 
-    <%= @blog.body %>
+    <%= @blog.body.html_safe %>
   </p>
 
 </div>

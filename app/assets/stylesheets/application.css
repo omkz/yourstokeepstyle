@@ -82,65 +82,65 @@ p { margin-bottom: 0.5em; }
 ul { margin: 0px 0px 1.5em 2.5em; }
 ul { list-style: none outside none; }
 
-/*@font-face*/
-/*{*/
-    /*font-family: jaggapoint;*/
-    /*font-style: normal;*/
-    /*font-weigh: normal;*/
-    /*src: font-url('/assets/JaggaPoint.ttf');*/
+@font-face
+{
+    font-family: jaggapoint;
+    font-style: normal;
+    font-weigh: normal;
+    src: font-url('/assets/JaggaPoint.ttf');
 
-/*}*/
-
-/*@font-face {*/
-    /*font-family: "brownbold";*/
-    /*font-style: normal;*/
-    /*font-weight: normal;*/
-    /*src: font-url('/assets/brown-bold-webfont.eot') format("embedded-opentype"), font-url('/assets/brown-bold-webfont.woff') format("woff"), font-url('/assets/brown-bold-webfont.ttf') format("truetype"), font-url('/assets/brown-bold-webfont.svg') format("svg");*/
-/*}*/
-/*@font-face {*/
-    /*font-family: "brownlight";*/
-    /*font-style: normal;*/
-    /*font-weight: normal;*/
-    /*src: font-url('/assets/brown-light-webfont.eot') format("embedded-opentype"), font-url('/assets/brown-light-webfont.woff') format("woff"), font-url('/assets/brown-light-webfont.ttf') format("truetype"), font-url('/assets/brown-light-webfont.svg') format("svg");*/
-/*}*/
-/*@font-face {*/
-    /*font-family: "brownregular";*/
-    /*font-style: normal;*/
-    /*font-weight: normal;*/
-    /*src: font-url('/assets/brown-regular-webfont.eot') format("embedded-opentype"), font-url('/assets/brown-regular-webfont.woff') format("woff"), font-url('/assets/brown-regular-webfont.ttf') format("truetype"), font-url('/assets/brown-regular-webfont.svg') format("svg");*/
-/*}*/
-/*@font-face {*/
-    /*font-family: "brownthin";*/
-    /*font-style: normal;*/
-    /*font-weight: normal;*/
-    /*src: font-url('/assets/brown-thin-webfont.eot') format("embedded-opentype"), font-url('/assets/brown-thin-webfont.woff') format("woff"), font-url('/assets/brown-thin-webfont.ttf') format("truetype"), font-url('/assets/brown-thin-webfont.svg') format("svg");*/
-/*}*/
-
+}
 
 @font-face {
     font-family: "brownbold";
     font-style: normal;
     font-weight: normal;
-    src: url('brown-bold-webfont.eot') format("embedded-opentype"), url('brown-bold-webfont.woff') format("woff"), url('brown-bold-webfont.ttf') format("truetype"), url('brown-bold-webfont.svg') format("svg");
+    src: font-url('/assets/brown-bold-webfont.eot') format("embedded-opentype"), font-url('/assets/brown-bold-webfont.woff') format("woff"), font-url('/assets/brown-bold-webfont.ttf') format("truetype"), font-url('/assets/brown-bold-webfont.svg') format("svg");
 }
 @font-face {
     font-family: "brownlight";
     font-style: normal;
     font-weight: normal;
-    src: url('brown-light-webfont.eot') format("embedded-opentype"), url('brown-light-webfont.woff') format("woff"), url('brown-light-webfont.ttf') format("truetype"), url('brown-light-webfont.svg') format("svg");
+    src: font-url('/assets/brown-light-webfont.eot') format("embedded-opentype"), font-url('/assets/brown-light-webfont.woff') format("woff"), font-url('/assets/brown-light-webfont.ttf') format("truetype"), font-url('/assets/brown-light-webfont.svg') format("svg");
 }
 @font-face {
     font-family: "brownregular";
     font-style: normal;
     font-weight: normal;
-    src: url('brown-regular-webfont.eot') format("embedded-opentype"), url('brown-regular-webfont.woff') format("woff"), url('brown-regular-webfont.ttf') format("truetype"), url('brown-regular-webfont.svg') format("svg");
+    src: font-url('/assets/brown-regular-webfont.eot') format("embedded-opentype"), font-url('/assets/brown-regular-webfont.woff') format("woff"), font-url('/assets/brown-regular-webfont.ttf') format("truetype"), font-url('/assets/brown-regular-webfont.svg') format("svg");
 }
 @font-face {
     font-family: "brownthin";
     font-style: normal;
     font-weight: normal;
-    src: url('brown-thin-webfont.eot') format("embedded-opentype"), url('brown-thin-webfont.woff') format("woff"), url('brown-thin-webfont.ttf') format("truetype"), url('brown-thin-webfont.svg') format("svg");
+    src: font-url('/assets/brown-thin-webfont.eot') format("embedded-opentype"), font-url('/assets/brown-thin-webfont.woff') format("woff"), font-url('/assets/brown-thin-webfont.ttf') format("truetype"), font-url('/assets/brown-thin-webfont.svg') format("svg");
 }
+
+
+/*@font-face {*/
+    /*font-family: "brownbold";*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    /*src: url('brown-bold-webfont.eot') format("embedded-opentype"), url('brown-bold-webfont.woff') format("woff"), url('brown-bold-webfont.ttf') format("truetype"), url('brown-bold-webfont.svg') format("svg");*/
+/*}*/
+/*@font-face {*/
+    /*font-family: "brownlight";*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    /*src: url('brown-light-webfont.eot') format("embedded-opentype"), url('brown-light-webfont.woff') format("woff"), url('brown-light-webfont.ttf') format("truetype"), url('brown-light-webfont.svg') format("svg");*/
+/*}*/
+/*@font-face {*/
+    /*font-family: "brownregular";*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    /*src: url('brown-regular-webfont.eot') format("embedded-opentype"), url('brown-regular-webfont.woff') format("woff"), url('brown-regular-webfont.ttf') format("truetype"), url('brown-regular-webfont.svg') format("svg");*/
+/*}*/
+/*@font-face {*/
+    /*font-family: "brownthin";*/
+    /*font-style: normal;*/
+    /*font-weight: normal;*/
+    /*src: url('brown-thin-webfont.eot') format("embedded-opentype"), url('brown-thin-webfont.woff') format("woff"), url('brown-thin-webfont.ttf') format("truetype"), url('brown-thin-webfont.svg') format("svg");*/
+/*}*/
 
 html, body { background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(34, 34, 34); font-family: brownlight,sans-serif; font-size: 13px; line-height: 1.3; margin: 0px; padding: 0px; height: 100%; letter-spacing: 0.06em; }
 .image-title { width: 100%; text-align: center; margin: 3px 0px 5px; font-family: times,serif; font-style: italic; }
@@ -175,6 +175,12 @@ ul.menu li.active-trail a { font-family: brownregular; }
     padding-top: 30px;
     padding-bottom: 50px;
     text-align: center;
+}
+.title{
+    font-family: Georgia;
+    text-align: center;
+    font-size: 14;
+    text-decoration: double;
 }
 
 
