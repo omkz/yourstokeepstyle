@@ -1,0 +1,17 @@
+<% @blogs.each do |article| %>
+
+    <%= article.title %> <br/>
+
+    <%= article.body %> <br/>
+
+    <%= social_share_button_tag(article.title) %> <br />
+
+    <%= link_to "comments", article %> <br />
+
+
+
+
+    <%= link_to article.title, blog_path(article, :anchor => "disqus_thread", "data-disqus-identifier" => article.id) %>
+
+<% end %>
+

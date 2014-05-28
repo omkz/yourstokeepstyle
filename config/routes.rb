@@ -1,8 +1,16 @@
 Rails.application.routes.draw do
 
+  # get 'blogs/index'
+  #
+  # get 'blogs/show'
+
+  resources :blogs
+
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
-  get 'blog/index'
+
+
+
 
   get 'static_pages/home'
 

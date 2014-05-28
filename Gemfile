@@ -34,7 +34,10 @@ gem 'bootstrap-sass', '~> 3.1.1'
 gem 'bootstrap-wysihtml5-rails'
 
 # Use SCSS for stylesheets
-# gem 'sass-rails', '~> 4.0.3'
+# gem
+
+gem 'disqus_api'
+gem 'social-share-button'
 
 
 group :assets do

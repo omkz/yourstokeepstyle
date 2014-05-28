@@ -1,0 +1,9 @@
+development:
+  api_secret: 5NzVYCjjYb4mpTJVKPPjijrx5Yk5CtitkBYryQ0mGePprp0Sy7IBQq1nOUH5wpAW
+  api_key: 'gO4AwLQxlSbbNmCGO7wVZMwkOdBB50KwFgGg4zeArHlco24blc9BxkLfIhHFHLNb'
+  access_token: 'token from app settings'
+
+production:
+  api_secret: production_secret_key
+  api_key: 'public key'
+  access_token: 'token from app settings'
