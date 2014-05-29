@@ -18,7 +18,7 @@
 //= require_tree .
 
 $(function(){
-    $('.carousel').carousel({
+    $('.collection').carousel({
         interval: false
     })
 

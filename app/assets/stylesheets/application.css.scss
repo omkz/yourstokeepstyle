@@ -82,65 +82,58 @@ p { margin-bottom: 0.5em; }
 ul { margin: 0px 0px 1.5em 2.5em; }
 ul { list-style: none outside none; }
 
-@font-face
-{
-    font-family: jaggapoint;
-    font-style: normal;
-    font-weigh: normal;
-    src: font-url('/assets/JaggaPoint.ttf');
-
-}
-
-@font-face {
-    font-family: "brownbold";
-    font-style: normal;
-    font-weight: normal;
-    src: font-url('/assets/brown-bold-webfont.eot') format("embedded-opentype"), font-url('/assets/brown-bold-webfont.woff') format("woff"), font-url('/assets/brown-bold-webfont.ttf') format("truetype"), font-url('/assets/brown-bold-webfont.svg') format("svg");
-}
-@font-face {
-    font-family: "brownlight";
-    font-style: normal;
-    font-weight: normal;
-    src: font-url('/assets/brown-light-webfont.eot') format("embedded-opentype"), font-url('/assets/brown-light-webfont.woff') format("woff"), font-url('/assets/brown-light-webfont.ttf') format("truetype"), font-url('/assets/brown-light-webfont.svg') format("svg");
-}
-@font-face {
-    font-family: "brownregular";
-    font-style: normal;
-    font-weight: normal;
-    src: font-url('/assets/brown-regular-webfont.eot') format("embedded-opentype"), font-url('/assets/brown-regular-webfont.woff') format("woff"), font-url('/assets/brown-regular-webfont.ttf') format("truetype"), font-url('/assets/brown-regular-webfont.svg') format("svg");
-}
-@font-face {
-    font-family: "brownthin";
-    font-style: normal;
-    font-weight: normal;
-    src: font-url('/assets/brown-thin-webfont.eot') format("embedded-opentype"), font-url('/assets/brown-thin-webfont.woff') format("woff"), font-url('/assets/brown-thin-webfont.ttf') format("truetype"), font-url('/assets/brown-thin-webfont.svg') format("svg");
-}
 
 
-/*@font-face {*/
-    /*font-family: "brownbold";*/
-    /*font-style: normal;*/
-    /*font-weight: normal;*/
-    /*src: url('brown-bold-webfont.eot') format("embedded-opentype"), url('brown-bold-webfont.woff') format("woff"), url('brown-bold-webfont.ttf') format("truetype"), url('brown-bold-webfont.svg') format("svg");*/
-/*}*/
-/*@font-face {*/
-    /*font-family: "brownlight";*/
-    /*font-style: normal;*/
-    /*font-weight: normal;*/
-    /*src: url('brown-light-webfont.eot') format("embedded-opentype"), url('brown-light-webfont.woff') format("woff"), url('brown-light-webfont.ttf') format("truetype"), url('brown-light-webfont.svg') format("svg");*/
-/*}*/
-/*@font-face {*/
-    /*font-family: "brownregular";*/
-    /*font-style: normal;*/
-    /*font-weight: normal;*/
-    /*src: url('brown-regular-webfont.eot') format("embedded-opentype"), url('brown-regular-webfont.woff') format("woff"), url('brown-regular-webfont.ttf') format("truetype"), url('brown-regular-webfont.svg') format("svg");*/
-/*}*/
-/*@font-face {*/
-    /*font-family: "brownthin";*/
-    /*font-style: normal;*/
-    /*font-weight: normal;*/
-    /*src: url('brown-thin-webfont.eot') format("embedded-opentype"), url('brown-thin-webfont.woff') format("woff"), url('brown-thin-webfont.ttf') format("truetype"), url('brown-thin-webfont.svg') format("svg");*/
-/*}*/
+
+//@font-face {
+//    font-family: "brownbold";
+//    font-style: normal;
+//    font-weight: normal;
+//    src: url('brown-bold-webfont.eot') format("embedded-opentype"), url('brown-bold-webfont.woff') format("woff"), url('brown-bold-webfont.ttf') format("truetype"), url('brown-bold-webfont.svg') format("svg");
+//}
+//@font-face {
+//    font-family: "brownlight";
+//    font-style: normal;
+//    font-weight: normal;
+//    src: url('brown-light-webfont.eot') format("embedded-opentype"), url('brown-light-webfont.woff') format("woff"), url('brown-light-webfont.ttf') format("truetype"), url('brown-light-webfont.svg') format("svg");
+//}
+//@font-face {
+//    font-family: "brownregular";
+//    font-style: normal;
+//    font-weight: normal;
+//    src: url('brown-regular-webfont.eot') format("embedded-opentype"), url('brown-regular-webfont.woff') format("woff"), url('brown-regular-webfont.ttf') format("truetype"), url('brown-regular-webfont.svg') format("svg");
+//}
+//@font-face {
+//    font-family: "brownthin";
+//    font-style: normal;
+//    font-weight: normal;
+//    src: url('brown-thin-webfont.eot') format("embedded-opentype"), url('brown-thin-webfont.woff') format("woff"), url('brown-thin-webfont.ttf') format("truetype"), url('brown-thin-webfont.svg') format("svg");
+//}
+
+@font-face {
+  font-family: "brownbold";
+  font-style: normal;
+  font-weight: normal;
+  src: asset-url('brown-bold-webfont.eot') format("embedded-opentype"), asset-url('brown-bold-webfont.woff') format("woff"), asset-url('brown-bold-webfont.ttf') format("truetype"), asset-url('brown-bold-webfont.svg') format("svg");
+}
+@font-face {
+  font-family: "brownlight";
+  font-style: normal;
+  font-weight: normal;
+  src: asset-url('brown-light-webfont.eot') format("embedded-opentype"), asset-url('brown-light-webfont.woff') format("woff"), asset-url('brown-light-webfont.ttf') format("truetype"), asset-url('brown-light-webfont.svg') format("svg");
+}
+@font-face {
+  font-family: "brownregular";
+  font-style: normal;
+  font-weight: normal;
+  src: asset-url('brown-regular-webfont.eot') format("embedded-opentype"), asset-url('brown-regular-webfont.woff') format("woff"), asset-url('brown-regular-webfont.ttf') format("truetype"), asset-url('brown-regular-webfont.svg') format("svg");
+}
+@font-face {
+  font-family: "brownthin";
+  font-style: normal;
+  font-weight: normal;
+  src: asset-url('brown-thin-webfont.eot') format("embedded-opentype"), asset-url('brown-thin-webfont.woff') format("woff"), asset-url('brown-thin-webfont.ttf') format("truetype"), asset-url('brown-thin-webfont.svg') format("svg");
+}
 
 html, body { background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(34, 34, 34); font-family: brownlight,sans-serif; font-size: 13px; line-height: 1.3; margin: 0px; padding: 0px; height: 100%; letter-spacing: 0.06em; }
 .image-title { width: 100%; text-align: center; margin: 3px 0px 5px; font-family: times,serif; font-style: italic; }
@@ -151,7 +144,7 @@ h2 { margin-bottom: 18px; }
 h2 a { font-size: 18px; color: rgb(0, 0, 0); margin-bottom: 18px; text-decoration: none; }
 p { letter-spacing: 0.06em; margin: 0px; padding: 0px; }
 a { color: rgb(0, 0, 0); }
-#header { position: relative; width: 620px; text-align: center; background-color: rgb(255, 255, 255); padding: 0px 0px 10px; }
+#header { position: relative; text-align: center; background-color: rgb(255, 255, 255); padding: 0px 0px 10px; }
 #header .block-title { display: none; }
 #block-system-main-menu, #block-system-main-menu .content { position: relative; width: 620px; text-align: center; }
 #block-system-main-menu .content { margin: 0px auto; text-align: center; }
@@ -183,4 +176,30 @@ ul.menu li.active-trail a { font-family: brownregular; }
     text-decoration: double;
 }
 
+.headline{
+    font-family: Georgia;
+    color: rgb(51,204,153);
+}
+
+.producer{
+    float:left;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+.telo:hover {
+    cursor: pointer;
+    height:475px;
+    width: 350px;
+    transform:scale(1.5);
+    -ms-transform:scale(1.5); /* IE 9 */
+    -moz-transform:scale(1.5); /* Firefox */
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -o-transform:scale(1.5); /* Opera */
+}
+
+.gallery {
+    text-align: center;
+
+}
 
