@@ -5,7 +5,11 @@
     var disqus_shortname = 'yourstokeepstyle'; // Required - Replace example with your forum shortname
     var disqus_identifier = <%= @blog.id %>;
     //    var disqus_publickey = "MY_PUBLIC_KEY"; // Replace with your own public key
-    var disqus_url = '<%= url_for(@blog) %>';
+    var disqus_url = "<%= url_for(:only_path => false) %>";
+
+   
+
+
 
 
 

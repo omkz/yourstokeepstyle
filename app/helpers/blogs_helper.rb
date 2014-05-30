@@ -1,5 +1,5 @@
 module BlogsHelper
-  def image_url()
-    request.original_url
+  def url_ori(blog)
+   root_url+ blog
   end
 end
