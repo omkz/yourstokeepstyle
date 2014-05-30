@@ -11,7 +11,8 @@
 
     <%# link_to "comments", article %>
 
-    <%= link_to "comments", blog_path(article, :anchor => "disqus_thread", "data-disqus-identifier" => article.id) %> <br />
+    <%= link_to "comments", blog_path(article, :anchor => "disqus_thread", "data-disqus-identifier" => article.id) %>
+
     <%= social_share_button_tag(article.title) %> <br />
 
 <% end %>
