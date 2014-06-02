@@ -41,6 +41,8 @@ doc/
 /log/*.log
 
 public/assets/
+public/ckeditor_assets
+
 
 
 .sass-cache
