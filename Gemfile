@@ -31,18 +31,18 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 gem 'sass-rails', '>= 3.2'
 gem 'bootstrap-sass', '~> 3.1.1'
+
 gem 'bootstrap-wysihtml5-rails'
 
 # Use SCSS for stylesheets
 # gem
 
 gem 'disqus_api'
+
 gem 'social-share-button'
 
 
 group :assets do
-
-
 
 # Use Uglifier as compressor for JavaScript assets
   gem 'uglifier', '>= 1.3.0'
@@ -57,5 +57,15 @@ gem 'unicorn'
 gem 'rails_12factor', group: :production
 
 gem 'rails_admin'
+
+gem 'ckeditor'
+
+gem 'paperclip'
+
+# gem 'activeadmin', github: 'gregbell/active_admin'
+#
+# gem "meta_search"
+#
+# gem 'devise'
 
 ruby "2.1.1"

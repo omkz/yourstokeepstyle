@@ -4,16 +4,14 @@
       <%= article.title.html_safe %> <br/>
     </div>
 
+    <%= article.body.html_safe %> <br/><br />
 
-    <%= article.body.html_safe %> <br/>
-
-
-
-    <%# link_to "comments", article %>
-
-    <%= link_to "comments", blog_path(article, :anchor => "disqus_thread", "data-disqus-identifier" => article.id) %>
-
-    <%= social_share_button_tag(article.title) %> <br />
+    <div class="">
+      <%= link_to "comments", blog_path(article, :anchor => "disqus_thread", "data-disqus-identifier" => article.id) %>
+      <br /><br />
+      <%= social_share_button_tag(article.title) %>
+    </div>
+    <br /><br /><br />
 
 <% end %>
 
