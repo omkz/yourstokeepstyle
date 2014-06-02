@@ -15,6 +15,8 @@
 //= require turbolinks
 //= require bootstrap
 //= require social-share-button
+//= require ckeditor/override
+//= require ckeditor/init
 //= require_tree .
 
 $(function(){
