@@ -14,3 +14,4 @@ end
 Rake::Task['assets:precompile'].enhance do
   Rake::Task['ckeditor:create_nondigest_assets'].invoke
 end
+

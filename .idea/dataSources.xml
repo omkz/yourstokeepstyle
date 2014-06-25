@@ -5,12 +5,16 @@
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:yourstokeepstyle_development</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfc5dfc7dfcfdfc4dfc1</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails yourstokeepstyle: test" uuid="0c3e28a2-733f-4965-87dc-adbe479b86e3">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:yourstokeepstyle_test</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfc5dfc7dfcfdfc4dfc1</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails yourstokeepstyle: production" uuid="10967d29-05a5-436e-964c-36930cdfaf57">

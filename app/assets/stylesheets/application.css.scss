@@ -33,7 +33,6 @@ li a.active { color: rgb(0, 0, 0); }
 
 img { border: 0px none; }
 
-
 #lightbox { position: absolute; top: 40px; left: 0px; width: 100%; z-index: 100; text-align: center; line-height: 0; }
 #outerImageContainer { position: relative; background-color: rgb(255, 255, 255); width: 250px; height: 250px; margin: 0px auto; min-width: 240px; overflow: hidden; }
 #imageContainer, #frameContainer, #modalContainer { padding: 10px; }
@@ -144,6 +143,10 @@ h2 { margin-bottom: 18px; }
 h2 a { font-size: 18px; color: rgb(0, 0, 0); margin-bottom: 18px; text-decoration: none; }
 p { letter-spacing: 0.06em; margin: 0px; padding: 0px; }
 a { color: rgb(0, 0, 0); }
+.logo{
+  text-align: center;
+  padding-left: 45px;
+}
 #header { position: relative; text-align: center; background-color: rgb(255, 255, 255); padding: 0px 0px 10px; }
 #header .block-title { display: none; }
 #block-system-main-menu, #block-system-main-menu .content { position: relative; width: 620px; text-align: center; }
