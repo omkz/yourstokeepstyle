@@ -62,6 +62,8 @@ gem 'ckeditor'
 
 gem 'paperclip'
 
+gem 'newrelic_rpm'
+
 # gem 'activeadmin', github: 'gregbell/active_admin'
 #
 # gem "meta_search"
