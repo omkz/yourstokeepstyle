@@ -1,6 +1,6 @@
 <% @blogs.each do |article| %>
 
-    <div class="title" style='font-family: Georgia;'>
+    <div class="title" style='font-family: Georgia; font-size: 18px'>
       <%= article.title.html_safe %> <br/>
     </div>
 
@@ -10,8 +10,8 @@
 
     <%= article.body.html_safe %> <br/><br />
 
-    <div class="">
-      <%= link_to "comments", blog_path(article, :anchor => "disqus_thread", "data-disqus-identifier" => article.id) %>
+    <div class="inline">
+      <%= link_to "comments", blog_path(article, :anchor => "disqus_thread", "data-disqus-identifier" => article.id), class:"inline" %>
       <br /><br />
       <%= social_share_button_tag(article.title) %>
     </div>

@@ -40,16 +40,12 @@
 
         <h2 class="block-title">Main menu</h2>
 
-        <div style="width: 650px;" class="content">
-          <ul style="width: 650px;" class="menu">
+        <div style="width: 680px;" class="content">
+          <ul style="width: 680px;" class="menu">
 
             <li class="first leaf"><%= link_to "Home", static_pages_home_path %></li>
             <li class="leaf"><%= link_to "Collection", static_pages_collection_path %></li>
-            <li class="leaf"><%= link_to "Conscience", static_pages_conscience_path %></li>
-
-
-            <!--<li class="leaf"> <%# image_tag("careandshare.png", width: "100", height: "30") %></li>-->
-
+            <li class="leaf"><%= link_to image_tag('careandshare.png', width: '120px', height:"15px"), static_pages_conscience_path %></li>
             <li class="leaf"><%= link_to "Stockists", static_pages_stockists_path %></li>
             <li class="leaf"><%= link_to "Blog", blogs_path %></li>
             <li class="leaf"><%= link_to "Contact", static_pages_contact_path %></li>
@@ -94,7 +90,6 @@
 
   </section>
   <!-- /#main -->
-
 
 </div>
 
